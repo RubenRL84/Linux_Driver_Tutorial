@@ -1,16 +1,16 @@
 ## USAGE
 ```c
-# compile file
+//compile file
 make
 
-# in a second terminal type 
+//in a second terminal type 
 dmesg -W
 
-# and leave it open
+//and leave it open
 
-# load the driver
+//load the driver
 insmod hello.ko
 
-# unload the driver
-rmmod hellp.ko
+//unload the driver
+rmmod hello.ko
 ```
