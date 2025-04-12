@@ -1,0 +1,21 @@
+## USAGE
+
+# compile file
+```bash
+make
+```
+# in a second terminal type 
+```bash
+dmesg -W
+```
+# and leave it open
+
+# load the driver
+```bash
+insmod hello.ko
+```
+
+# unload the driver
+```bash
+rmmod hellp.ko
+```
