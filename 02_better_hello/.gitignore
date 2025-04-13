@@ -1,0 +1,8 @@
+# Ignore everything
+*
+
+# Except these files
+!Makefile
+!hello.c
+!README
+!.gitignore
