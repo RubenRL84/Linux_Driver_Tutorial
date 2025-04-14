@@ -3,6 +3,7 @@
 
 # Except these files
 !Makefile
-!hello.c
-!README
+!gpioctrl.c
+!README.md
 !.gitignore
+

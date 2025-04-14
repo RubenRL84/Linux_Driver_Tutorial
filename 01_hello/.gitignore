@@ -4,5 +4,6 @@
 # Except these files
 !Makefile
 !hello.c
-!README
+!README.md
 !.gitignore
+
