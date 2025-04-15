@@ -34,7 +34,7 @@ dmesg | tail
 ### 5. Remove the Module
 sudo rmmod <name>.ko
 
-### 6. Remove the Module
+### 6. Clean the Module
 make clean
 ```
 
