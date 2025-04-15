@@ -1,23 +1,30 @@
-### USAGE
+## USAGE
+
+# 1 compile file
 ```c
-
-## 1 compile file
 make
-
- ## 2 in a second terminal type 
-dmesg -W
-
-## 3 load the driver
-insmod hello.ko
-
-# 3.1 
-    sudo mknod /dev/hello0 c 236 0
-
-# 3.2
-    sudo cat /dev/hello0
-
-## 4 unload the driver
-
+```
+# 2 in a second terminal type 
+```c
+   dmesg -W
+```
+# 3 load the driver
+```c
+  insmod hello.ko
+```
+- 3.1
+```bash
+ sudo mknod /dev/hello0 c 236 0
+```
+- 3.2
+```bash
+ sudo cat /dev/hello0
+```
+# 4 unload the driver
+```bash
 rmmod hello.ko
-or just rmod hello
+```
+or 
+```bash
+just rmod hello
 ```
