@@ -24,7 +24,7 @@ make
 ```bash
 rmmod hello.ko
 ```
-or 
+or just
 ```bash
-just rmod hello
+rmod hello
 ```
