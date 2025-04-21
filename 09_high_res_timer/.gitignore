@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# Except these files
+!Makefile
+!my_hrtimer.c
+!README.md
+!.gitignore
+
