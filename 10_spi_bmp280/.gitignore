@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# Except these files
+!Makefile
+!spi_bmp280.c
+!README.md
+!.gitignore
+
