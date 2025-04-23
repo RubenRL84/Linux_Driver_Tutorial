@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# Except these files
+!Makefile
+!ioctl.c
+!ioctl_test.h
+!README.md
+!.gitignore
+!cdev_test
+!test.c
