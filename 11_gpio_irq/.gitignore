@@ -1,0 +1,8 @@
+# Ignore everything
+*
+
+# Except these files
+!Makefile
+!gpio_irq.c
+!README
+!.gitignore
